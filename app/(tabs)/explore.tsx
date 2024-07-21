@@ -25,7 +25,7 @@ export default function TabTwoScreen() {
             <ThemedText>Recorder</ThemedText>
           </TouchableOpacity>
           <TouchableOpacity onPress={()=>setText(!text)}style={{...styles.buttons, backgroundColor:text?"grey":"transparent"}}><FontAwesomeIcon icon={faHeadphonesAlt} size={25} color={'white'} />
-            <ThemedText>Speech-text</ThemedText>
+            <ThemedText>speech-text</ThemedText>
           </TouchableOpacity>
           <TouchableOpacity onPress={()=>setSpeech(!speech)}style={{...styles.buttons, backgroundColor:speech?"grey":"transparent"}}><FontAwesomeIcon icon={faMessage} size={25} color={'white'} />
             <ThemedText>Text-speech</ThemedText>
@@ -53,9 +53,9 @@ const styles = StyleSheet.create({
   buttons: {
     alignItems: "center",
     justifyContent: "center",
-    width: 82,
-    height: 80,
-    borderRadius: 80,
+    width: 90,
+    height: 90,
+    borderRadius: 90,
 
   },
 
